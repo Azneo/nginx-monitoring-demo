@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: nginx   # lowercase 'app'
   endpoints:
     - port: metrics
       path: /metrics

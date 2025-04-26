@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-app  # <-- CHANGED this to match your real deployment name
+  name: nginx-app  # <-- CHANGED this to match real deployment name
   namespace: devops-demo  # <-- ADD namespace to make sure it's correct
   labels:
     app.kubernetes.io/instance: nginx-app  # <-- ADD label to match best practices
