@@ -4,7 +4,7 @@ metadata:
   name: nginx-service
   labels:
     app: nginx
-    app.kubernetes.io/instance: nginx-app
+    app.kubernetes.io/instance: nginx-app # <--some comments
 spec:
   type: NodePort
   selector:
